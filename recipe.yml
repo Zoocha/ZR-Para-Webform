@@ -1,0 +1,10 @@
+name: 'ZC Webform Paragraph'
+description: 'Installs Zoocha Webform Paragraph Component'
+type: 'Feature'
+install:
+  - webform
+recipes:
+  - zr-paragraph-bundle
+
+config:
+  strict: false
