@@ -1,7 +1,7 @@
 {
     "name": "zr/zr-para-webform",
     "description": "ZR Webform - Paragraph",
-    "type": "drupal-custom-recipe",
+    "type": "drupal-recipe",
     "require": {
         "php": ">=8.1"
     },
