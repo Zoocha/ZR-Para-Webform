@@ -8,7 +8,11 @@ To install the ZR Webform, follow the steps below:
     ```sh
     "web/recipes/custom/{$name}": ["type:drupal-recipe"]
     ```
-4. Run the following command to execute the ZR Webform Paragraph installation:
+4. Run the following command to set the minimum stability for composer to dev
+    ```sh
+	composer config minimum-stability dev
+    ```
+5. Run the following command to execute the ZR Webform Paragraph installation:
 
     ```sh
     ddev drush recipe recipes/custom/zr-para-webform
