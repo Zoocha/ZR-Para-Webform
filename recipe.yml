@@ -5,6 +5,7 @@ install:
   - webform
 recipes:
   - zr-paragraph-bundle
+  - zr-webform-bundle
 
 config:
   strict: false
