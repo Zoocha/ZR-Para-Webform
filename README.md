@@ -1,21 +1,14 @@
 # ZR Webform Paragraph Installation Guide
 
-To install the ZR Webform, follow the steps below:
+To install the ZR Webform Paragraph, follow the steps below:
 
-1. Open your terminal.
-2. Navigate to your project directory.
-3. Ahead of running `composer require zr/RECIPE_NAME` - ensure the below has been added to the root `composer.json` **installer-paths**
+1. Ensure the below has been added to the `composer.json` **installer-paths**:
     ```sh
     "web/recipes/custom/{$name}": ["type:drupal-recipe"]
     ```
-4. Run the following command to set the minimum stability for composer to dev
-    ```sh
-	composer config minimum-stability dev
-    ```
-5. Run the following command to execute the ZR Webform Paragraph installation:
+2. Run `composer require zr/zr-para-webform`
+3. Run the following command (within `/web` directory):
 
     ```sh
     ddev drush recipe recipes/custom/zr-para-webform
     ```
-
-This command will execute the ZR Webform Paragraph installation.
